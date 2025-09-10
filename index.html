@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Interactive Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Interactive JavaScript Project</h1>
+
+  <!-- Part 1: Event Handling -->
+  <section>
+    <h2>Event Handling Demo</h2>
+    <button id="messageButton">Click Me</button>
+    <p id="message"></p>
+  </section>
+
+  <!-- Part 2: Interactive Elements -->
+  <section>
+    <h2>Interactive Elements</h2>
+
+    <!-- Light/Dark Mode Toggle -->
+    <button id="themeToggle">Switch to Dark Mode</button>
+
+    <!-- Counter -->
+    <div>
+      <button id="decrease">-</button>
+      <span id="counter">0</span>
+      <button id="increase">+</button>
+    </div>
+
+    <!-- FAQ Section -->
+    <div class="faq">
+      <h3 class="faq-question">What is JavaScript?</h3>
+      <p class="faq-answer">JavaScript is a programming language for the web.</p>
+    </div>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section>
+    <h2>Form Validation</h2>
+    <form id="signupForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name"><br><br>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email"><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password"><br><br>
+
+      <button type="submit">Sign Up</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
